@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/riozakirahman.github.io/static/css/main.dbb81cf7.css",
-    "main.js": "/riozakirahman.github.io/static/js/main.a9c018b9.js",
-    "index.html": "/riozakirahman.github.io/index.html",
-    "main.dbb81cf7.css.map": "/riozakirahman.github.io/static/css/main.dbb81cf7.css.map",
-    "main.a9c018b9.js.map": "/riozakirahman.github.io/static/js/main.a9c018b9.js.map"
+    "main.css": "/coworking-space/static/css/main.dbb81cf7.css",
+    "main.js": "/coworking-space/static/js/main.a9c018b9.js",
+    "index.html": "/coworking-space/index.html",
+    "main.dbb81cf7.css.map": "/coworking-space/static/css/main.dbb81cf7.css.map",
+    "main.a9c018b9.js.map": "/coworking-space/static/js/main.a9c018b9.js.map"
   },
   "entrypoints": [
     "static/css/main.dbb81cf7.css",
