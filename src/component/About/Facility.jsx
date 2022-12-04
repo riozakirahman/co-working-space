@@ -1,11 +1,22 @@
-import React from "react";
-
+import React, { useRef, useState, useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 const Facility = () => {
+  const options = {
+    rootMargin: "0px 0px -50% 0px",
+  };
+  const { ref: myRef, inView: myElementVisible } = useInView(options);
   return (
-    <div id="facility" className="container-xxl bg-warning">
-      <main className=" bg-warning p-4" id="facility">
-        <h1 className="text-center text-light my-5">Our Facility</h1>
-        <div className="row justify-content-center align-items-center flex-wrap my-5">
+    <div id="facility" className="container-xxl bg-warning ">
+      <main className=" bg-warning p-4 facility" id="facility">
+        <h1 className={"text-center text-light my-5 "}>Our Facility</h1>
+        <div
+          className={`${"row justify-content-center align-items-center flex-wrap my-5 overflow-hidden"} ${
+            myElementVisible
+              ? "animate__animated animate__fadeIn animate__slower"
+              : ""
+          }`}
+          ref={myRef}
+        >
           <div className="col-md-8 col-lg-4 col-xl-3 mb-3">
             <div className="card">
               <div class="card-body text-center">

@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useRef, useState, useEffect } from "react";
 import "../../css/header.css";
+import "animate.css";
 
 const Header = () => {
   return (
@@ -9,14 +10,14 @@ const Header = () => {
           <img
             src="https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80"
             alt=""
-            className="img-fluid intro-img rounded-2"
+            className="img-fluid intro-img rounded-2 animate__animated animate__slideInDown"
           />
         </div>
         <div className="col-md-5">
           <div className="row justify-content-center">
             <div className="col-xxl-10  p-1 m-0">
               <h1 className="display-3 text-dark text-center text-md-start fw-bold rounded-2">
-                Co-Working Space{" "}
+                Co-Working Space
                 <span className="display-4 text-muted text-md-start">
                   Bekasi
                 </span>

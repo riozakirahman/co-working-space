@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-warning  sticky-top">
+    <nav class="navbar  navbar-expand-lg navbar-dark bg-warning  fixed-top">
       <div class="container-xxl">
         <a class="navbar-brand" href="#">
           Working Space
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -24,22 +24,22 @@ const Navbar = () => {
         >
           <ul class="navbar-nav  me-2">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+              <a className="nav-link active" aria-current="page" href="#">
                 About
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#facility">
+              <a className="nav-link" href="#facility">
                 Facility
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#booking">
+              <a className="nav-link" href="#booking">
                 Booking
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#location">
+              <a className="nav-link " href="#location">
                 Location
               </a>
             </li>
