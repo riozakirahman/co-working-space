@@ -16,7 +16,7 @@ const Location = () => {
               <div
                 class={`${"gmap_canvas"} ${
                   myElementVisible
-                    ? "animate__animated animate__fadeInDown"
+                    ? "animate__animated animate__fadeInDown animate__slow"
                     : ""
                 }`}
               >
